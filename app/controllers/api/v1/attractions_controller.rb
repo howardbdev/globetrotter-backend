@@ -1,4 +1,4 @@
-class AttractionsController < ApplicationController
+class Api::V1::AttractionsController < ApplicationController
   before_action :set_attraction, only: [:show, :update, :destroy]
 
   # GET /attractions
