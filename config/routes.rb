@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   # I want my api be globetrotter.com/api/v1/resource
   namespace :api do
     namespace :v1 do
+      resources :visits
       resources :trips
       resources :comments
       resources :attractions
