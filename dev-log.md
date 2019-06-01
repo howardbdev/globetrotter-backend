@@ -112,12 +112,12 @@ ___________________
 
 # 2019-05-31
 
-## I WILL NEED TO DELETE UNUSED FILES AND ACTIONS FROM USING A SCAFFOLD GENERATOR *** 
+## I WILL NEED TO DELETE UNUSED FILES AND ACTIONS FROM USING A SCAFFOLD GENERATOR ***
 
-- add some seed data and double-check our models in a rails console
-- add a serializers -- fast JSON api
-- mock user login -- add current_user to app controller
-- create a React app, using create-react-app
-- add Redux and establish our store -- at least a first draft
+- add some seed data and double-check our models in a rails console DONE
+- add a serializers -- fast JSON api DONE
+- mock user login -- add current_user to app controller DONE
+- create a React app, using create-react-app DONE
+- add Redux and establish our store -- at least a first draft DONE
 - start thinking about/drafting what our app will look like -- think about components
 - add a couple components
