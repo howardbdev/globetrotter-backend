@@ -121,3 +121,20 @@ ___________________
 - add Redux and establish our store -- at least a first draft DONE
 - start thinking about/drafting what our app will look like -- think about components
 - add a couple components
+
+# 2019-06-7
+
+add login functionality using sessions
+
+# 2019-06-11
+
+- add logout functionality
+  What does logout mean?
+  clearing session@!  (that was easy) prob delete /logout
+
+  How do we make this happen????
+
+- we can add signup functionality
+- we can think about our initial layout
+- we can think about routes -- adding react router
+-
