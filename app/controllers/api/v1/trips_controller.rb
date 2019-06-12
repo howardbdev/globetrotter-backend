@@ -3,9 +3,17 @@ class Api::V1::TripsController < ApplicationController
 
   # GET /trips
   def index
-    @trips = Trip.all
+    # is there an incoming user id
+    # but does that matter?  do we always want just the current user's trips?
+    if logged_in?
+      @trips = current_user.trips
 
-    render json: @trips
+      render json: @trips
+    else
+      render json: {
+        error: "You must be logged in to see trips"
+      }
+    end
   end
 
   # GET /trips/1
