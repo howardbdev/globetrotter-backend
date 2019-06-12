@@ -128,7 +128,7 @@ add login functionality using sessions
 
 # 2019-06-11
 
-- add logout functionality
+- add logout functionality DONE (for now -- later we will move this component around )
   What does logout mean?
   clearing session@!  (that was easy) prob delete /logout
 
@@ -137,4 +137,8 @@ add login functionality using sessions
 - we can add signup functionality
 - we can think about our initial layout
 - we can think about routes -- adding react router
--
+- we can think about bringing in a 3rd party css library }
+
+WHERE WE ARE -- just updated trips index controller action
+so that we can get the current user's trips on load....
+NEXT UP - ^^ add actions/reducers/state/props needed for this to happen
