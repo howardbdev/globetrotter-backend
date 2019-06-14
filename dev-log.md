@@ -134,11 +134,14 @@ add login functionality using sessions
 
   How do we make this happen????
 
+# 2019-06-13
+
+LET's NOT GET ALL THE USER INFO!  LIKE, NO password_DIGEST *DONE
+WHERE WE ARE -- just updated trips index controller action
+so that we can get the current user's trips on load....
+NEXT UP - ^^ add actions/reducers/state/props needed for this to happen
+
 - we can add signup functionality
 - we can think about our initial layout
 - we can think about routes -- adding react router
 - we can think about bringing in a 3rd party css library }
-
-WHERE WE ARE -- just updated trips index controller action
-so that we can get the current user's trips on load....
-NEXT UP - ^^ add actions/reducers/state/props needed for this to happen
