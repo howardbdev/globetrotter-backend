@@ -160,3 +160,12 @@ NEXT UP - ^^ add actions/reducers/state/props needed for this to happen
 - we can think about creating resources -> trips, comments, any other related data
 
 NEED TO CLEAN UP UI/BASIC ROUTES!!
+
+# 2019-06-27
+
+- we can think about our initial layout
+- we can think about routes -- adding react router
+- we can think about bringing in a 3rd party css library
+- we can think about creating resources -> trips, comments, any other related data
+
+NEED TO CLEAN UP UI/BASIC ROUTES!!
