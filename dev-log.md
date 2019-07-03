@@ -167,5 +167,16 @@ NEED TO CLEAN UP UI/BASIC ROUTES!!
 - we can think about routes -- adding react router
 - we can think about bringing in a 3rd party css library
 - we can think about creating resources -> trips, comments, any other related data
+- We added functionality around creating trips
+
+NEED TO CLEAN UP UI/BASIC ROUTES!!
+
+# 2019-07-02
+
+- we can think about our initial layout
+- we can think about routes -- adding react router
+- we can think about bringing in a 3rd party css library
+- we can think about creating resources -> trips, comments, any other related data
+- don't send bad data data to the back end
 
 NEED TO CLEAN UP UI/BASIC ROUTES!!
