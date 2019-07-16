@@ -39,15 +39,25 @@ class Api::V1::TripsController < ApplicationController
   # PATCH/PUT /trips/1
   def update
     if @trip.update(trip_params)
-      render json: @trip
+      render json:  TripSerializer.new(@trip), status: :ok
     else
-      render json: @trip.errors, status: :unprocessable_entity
+      error_resp = {
+        error: @trip.errors.full_messages.to_sentence
+      }
+      render json: error_resp, status: :unprocessable_entity
     end
   end
 
   # DELETE /trips/1
   def destroy
-    @trip.destroy
+    if @trip.destroy
+      render json:  { data: "Trip successfully destroyed" }, status: :ok
+    else
+      error_resp = {
+        error: "Trip not found and not destroyed"
+      }
+      render json: error_resp, status: :unprocessable_entity
+    end
   end
 
   private
